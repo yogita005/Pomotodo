@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    background-image: url("p4.png");
+    background-size: 100%;
+}
+h1{
+    color:bisque;
+    text-align: center;
+    
+}
+div{
+    margin:2px;
+    padding:8px;
+    
+}
+#header{
+    background-color:transparent;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#timer {
+    color: #FFF3DA;
+    font-size: 50px;
+    margin: 10px auto;
+    border: 10px solid #FFF3DA;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -50%);
+    cursor: default;
+}
+
+  
+#time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  
+#buttons {
+    text-align: left; 
+}
+
+#buttons button { 
+    background: #FFC7EA; 
+    border: none; 
+    color: #fff; 
+    cursor: pointer; 
+    padding: 5px; 
+    width: 90px; 
+    margin: 40px 0; 
+    font-size: 14px;
+    height: 50px;
+    border-radius: 50px;
+    display: block; 
+}
+
+#buttons button#shortBreak{
+    background: #AEE2FF;
+}
+
+#buttons button#longBreak{
+    background: #FFB3B3;
+}
+
+#buttons button#stop{
+    background: #CDF0EA;
+}
+
+#container input {
+    height: 50px;
+    width: 60%;
+    margin-right: 50px;
+    background-color: #DBC4F0;
+    border-radius: 1.5rem;
+    border: 1px solid #FFCACC;
+    
+    
+}
+#container input:hover{
+    border:2.5px solid #8f40d8 ;
+}
+#container button{
+    border-radius: 0.6rem;
+    border:none;
+    background-color:#FFC7EA;
+    height: 30px;
+    width:15%;
+    color: black;
+    border: 2px solid #a84ef6;
+}
+
+#container button:hover{
+    border: 2.5px solid #a84ef6;
+
+}
+#container {
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    background-color: #D0A2F7;
+    border-radius: 4rem;
+    width: 50%;
+    margin-top: 20px;
+    border: 7px solid #a84ef6;
+    float: right; 
+}
+
+#adder{
+    background-color:#D0A2F7;
+    border-radius: 4rem;
+    border: 5px solid transparent;
+    
+    
+}
+#adder ::placeholder{
+    text-align: center;
+    color:#974EC3;
+}
+
+  
